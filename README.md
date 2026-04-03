@@ -30,11 +30,11 @@ Processing Thai text from internet forums presents unique challenges due to the 
 
 ### 3. Topic Categorization
 Before analyzing sentiment, we grouped the comments into specific areas of interest using a rule-based approach. By defining sets of targeted keywords, the system classifies each comment into one of five main categories:
-1.  **System Issues** (ปัญหาทางระบบ)
-2.  **Fees** (ค่าธรรมเนียม)
-3.  **Service** (การบริการ)
-4.  **Trading** (การเทรด)
-5.  **Others** (อื่นๆ)
+1.  **System Issues** 
+2.  **Fees** 
+3.  **Service** 
+4.  **Trading** 
+5.  **Others** 
 
 ### 4. Sentiment Classification
 * **Handling Imbalanced Data:** The initial dataset had an unequal distribution of sentiments. We applied an **Under-sampling** technique to balance the Positive, Neutral, and Negative classes (reducing them to 303 samples each) to prevent model bias towards the majority class.
